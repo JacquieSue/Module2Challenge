@@ -7,42 +7,43 @@ header {
 }
 
 nav {
+    box-sizing: border-box;
     text-align: right;
-
-
 }
 
-ul {
+nav a {
     display: inline;
     text-decoration: underline;
     font-weight: bold;
     color: rgb(56, 201, 201);
-}
-
-nav ul li {
-    display: inline;
-
+    padding: 5px
 }
 
 footer {
     display: block;
     text-align: center;
-
     background-color: blueviolet;
-    margin-bottom: auto;
+    margin-bottom: 5px;
 }
 
 footer h4 {
     text-align: left;
-    justify-content: space-between;
+
 }
+
 ul {
-    display: inline;
+    display: block;
     text-decoration: underline;
     font-weight: bold;
     color: rgb(56, 201, 201);
+    box-sizing: border-box;
+    padding: 2px;
 
 }
+
 ul li {
     display: inline;
+    width: 100px;
+    justify-content: space-between;
+    padding: 2px;
 }
