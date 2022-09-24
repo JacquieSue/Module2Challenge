@@ -1,28 +1,32 @@
 header {
+    display: block;
     width: 100%;
-    background-color: rgb(83, 83, 163) ;
+    background-color: rgb(83, 83, 163);
+    border: 2px solid rgb(181, 50, 14);
 }
 
-h2 {
+nav {
     text-align: left;
+
 }
 
 ul {
     text-align: right;
+    text-decoration: underline;
+    font-weight: bold;
     color: rgb(56, 201, 201);
 }
 
 li {
     display: inline;
-    text-align: center;
 }
 
-img {
-    /* Sets display to block */
+footer {
     display: block;
-    /*Sets margins to center elements*/
-    margin: 0 auto;
-  }
-  .container {
-    display: flex;
-  }
+
+    background-color: blueviolet;
+    margin-bottom: auto;
+}
+.ul {
+text-align: center;
+}
