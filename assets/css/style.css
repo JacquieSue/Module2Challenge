@@ -3,30 +3,46 @@ header {
     width: 100%;
     background-color: rgb(83, 83, 163);
     border: 2px solid rgb(181, 50, 14);
+
 }
 
 nav {
-    text-align: left;
+    text-align: right;
+
 
 }
 
 ul {
-    text-align: right;
+    display: inline;
     text-decoration: underline;
     font-weight: bold;
     color: rgb(56, 201, 201);
 }
 
-li {
+nav ul li {
     display: inline;
+
 }
 
 footer {
     display: block;
+    text-align: center;
 
     background-color: blueviolet;
     margin-bottom: auto;
 }
-.ul {
-text-align: center;
+
+footer h4 {
+    text-align: left;
+    justify-content: space-between;
+}
+ul {
+    display: inline;
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(56, 201, 201);
+
+}
+ul li {
+    display: inline;
 }
