@@ -14,6 +14,4 @@ As a web developer, I want to create and deploy a funtional webpage that will im
 
 * It is done when I add a screenshot to the README file
 
- ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+    ![Webpage](./assets/images/Screen%20Shot%202022-09-26%20at%201.10.15%20PM.png)
